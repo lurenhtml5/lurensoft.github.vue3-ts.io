@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        持续集成
+        脚手架 + vue3-ts模版 + travis 实现项目搭建，持续集成 + 部署
     </div>
 </template>
 
