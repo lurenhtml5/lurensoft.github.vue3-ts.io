@@ -2,7 +2,7 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 153:
+/***/ 5918:
 /***/ (function(__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) {
 
 
@@ -88,15 +88,15 @@ var vuex_esm_bundler = __webpack_require__(894);
 }));
 // EXTERNAL MODULE: ./node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js
 var runtime_core_esm_bundler = __webpack_require__(6252);
-;// CONCATENATED MODULE: ./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[8].use[0]!./src/App.vue?vue&type=template&id=285f681b
+;// CONCATENATED MODULE: ./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[8].use[0]!./src/App.vue?vue&type=template&id=c37b36ac
 
 var _hoisted_1 = {
   id: "app"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)("div", _hoisted_1, " 持续集成 ");
+  return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)("div", _hoisted_1, " 脚手架 + vue3-ts模版 + travis 实现项目搭建，持续集成 + 部署 ");
 }
-;// CONCATENATED MODULE: ./src/App.vue?vue&type=template&id=285f681b
+;// CONCATENATED MODULE: ./src/App.vue?vue&type=template&id=c37b36ac
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/web.dom-collections.for-each.js
 var web_dom_collections_for_each = __webpack_require__(4747);
@@ -172,7 +172,7 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
     var data = (0,reactivity_esm_bundler/* reactive */.qj)({
       show: true
     });
-    console.log("VUEP_BASE_URL=".concat("http://localhost:9000"), "2021/02/06 06:19:52");
+    console.log("VUEP_BASE_URL=".concat("http://localhost:9000"), "2021/02/06 06:32:24");
     setInterval(function () {
       store.dispatch('countUp');
     }, 1000);
@@ -583,7 +583,7 @@ app.use(src_router).use(store).mount('#app'); // 将页面挂载到 root 节点
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [736], function() { return __webpack_require__(153); })
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [736], function() { return __webpack_require__(5918); })
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
