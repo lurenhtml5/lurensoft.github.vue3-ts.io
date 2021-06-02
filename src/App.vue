@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        hahha 
+        持续集成
     </div>
 </template>
 
